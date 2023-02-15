@@ -19,6 +19,11 @@ deno run TypeScript/simple-factory/index.ts
 - [simple factory](./simple-factory)
   - オブジェクトを生成するオブジェクト
   - インスタント生成ロジックは外に露出しない
+- [factory method](./factory-method/)
+  - ベースクラスで実装を作り、派生クラスでそれを override する
+  - ファクトリーメソッドはそのベースクラスのメソッド
+  - ファクトリーメソッドを呼び出してオブジェクトを作成する
+  - サブクラス定義時に動的に決定したいときに使う
 
 ## Structual Design Pattern
 
