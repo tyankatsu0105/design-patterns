@@ -31,6 +31,8 @@ deno run TypeScript/simple-factory/index.ts
   - Telescoping constructor アンチパターンの解決策のためのオブジェクト生成パターン
     - Telescoping constructor アンチパターンとは、パラメータが増え続け、パラメータの理解に乏しくなり、このパラメータは今後も拡張し続けていくようになってしまうこと
     - `constructor(size, cheese = true, pepperoni = true, tomato = false, lettuce = true) {...}`
+- [prototype](./prototype/index.ts)
+  - 既存のオブジェクトをもとにクローンとなるオブジェクトを生成する
 
 ## Structual Design Pattern
 
