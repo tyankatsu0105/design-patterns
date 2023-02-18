@@ -33,6 +33,9 @@ deno run TypeScript/simple-factory/index.ts
     - `constructor(size, cheese = true, pepperoni = true, tomato = false, lettuce = true) {...}`
 - [prototype](./prototype/index.ts)
   - 既存のオブジェクトをもとにクローンとなるオブジェクトを生成する
+- [singleton](./singleton/index.ts)
+  - 特定のクラスのインスタンス化を一度だけに制限する
+  - アプリケーション全体で統一したい場合にインスタンス化の回数を制限する
 
 ## Structual Design Pattern
 
