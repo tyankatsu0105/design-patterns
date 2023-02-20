@@ -46,5 +46,8 @@ deno run TypeScript/simple-factory/index.ts
   - 既存の処理を別の処理で利用できる形に包む
   - 充電ケーブルの変換アダプタ的な
   - 既存のクラスのインターフェースを別のインターフェースとして利用できるようにする
+- [bridge](./bridge/index.ts)
+  - 機能と実装を切り離し、両者が独立して変化できるようにする
+  - 似たようなサブクラスの量産を防ぐことができる
 
 ## Behavioral Design Pattern
