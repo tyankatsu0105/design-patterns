@@ -39,4 +39,12 @@ deno run TypeScript/simple-factory/index.ts
 
 ## Structual Design Pattern
 
+ソフトウェア・コンポーネントをどのように構築するかの解決法を提案する。  
+ソフトウェア工学において、構造的デザインパターンとは、エンティティ間の関係を実現する簡単な方法を明らかにすることで、設計を容易にするデザインパターン
+
+- [adapter](./adapter/index.ts)
+  - 既存の処理を別の処理で利用できる形に包む
+  - 充電ケーブルの変換アダプタ的な
+  - 既存のクラスのインターフェースを別のインターフェースとして利用できるようにする
+
 ## Behavioral Design Pattern
