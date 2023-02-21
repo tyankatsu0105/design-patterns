@@ -58,5 +58,8 @@ deno run TypeScript/simple-factory/index.ts
 - [decorator](./decorator/index.ts)
   - 同じクラスの他のオブジェクトの動作に影響を与えることなく、静的または動的に個々のオブジェクトに動作を追加できる
   - オブジェクトをデコレータクラスのオブジェクトでラップすることで、実行時にオブジェクトの振る舞いを動的に変化させることができる
+- [facade](./facade/index.ts)
+  - 複雑なサブシステムに対して簡素化されたインタフェースを提供する
+  - 実際は複雑だけど、窓口は簡素
 
 ## Behavioral Design Pattern
