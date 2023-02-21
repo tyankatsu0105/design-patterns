@@ -49,5 +49,11 @@ deno run TypeScript/simple-factory/index.ts
 - [bridge](./bridge/index.ts)
   - 機能と実装を切り離し、両者が独立して変化できるようにする
   - 似たようなサブクラスの量産を防ぐことができる
+- [composite](./composite/index.ts)
+  - オブジェクトのツリー構造を作成し、それらを 1 つのオブジェクトとして扱う
+  - 容器と中身を同一視する
+    - フォルダとファイルの関係性
+      - フォルダは容器、ファイルは中身
+        - フォルダの中にフォルダとファイルがあるとき、フォルダの中のフォルダは「容器」でもあるし「中身」でもある
 
 ## Behavioral Design Pattern
