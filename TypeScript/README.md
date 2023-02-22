@@ -61,5 +61,8 @@ deno run TypeScript/simple-factory/index.ts
 - [facade](./facade/index.ts)
   - 複雑なサブシステムに対して簡素化されたインタフェースを提供する
   - 実際は複雑だけど、窓口は簡素
+- [flyweight](./flyweight/index.ts)
+  - 他の類似のオブジェクトとできるだけ多くのデータを共有することによって、メモリの使用を最小限に抑えるオブジェクトのこと
+  - 単純な繰り返し表現では許容できない量のメモリを使用してしまう場合に、オブジェクトを大量に使用する
 
 ## Behavioral Design Pattern

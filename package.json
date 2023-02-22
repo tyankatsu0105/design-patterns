@@ -1,0 +1,23 @@
+{
+  "name": "design-patterns",
+  "version": "0.0.1",
+  "description": "デザインパターンの練習",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tyankatsu0105/design-patterns.git"
+  },
+  "keywords": [],
+  "author": "tyankatsu <frips.ryilsufupe+dev@gmail.com> (https://tyankatsu.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyankatsu0105/design-patterns/issues"
+  },
+  "homepage": "https://github.com/tyankatsu0105/design-patterns#readme",
+  "devDependencies": {
+    "typescript": "4.9.5"
+  }
+}
