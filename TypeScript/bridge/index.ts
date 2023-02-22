@@ -1,3 +1,5 @@
+export {};
+
 interface Page {
   getContent(): string;
 }

@@ -1,3 +1,5 @@
+export {};
+
 class Computer {
   getElectricShock() {
     console.log("Ouch!");

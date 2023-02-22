@@ -1,3 +1,5 @@
+export {};
+
 class WoodenDoor {
   constructor(private width: number, private height: number) {}
 

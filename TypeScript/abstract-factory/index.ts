@@ -1,3 +1,5 @@
+export {};
+
 class WoodenDoor {
   getDescription() {
     console.log("I am a wooden door");

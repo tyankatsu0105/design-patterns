@@ -1,3 +1,5 @@
+export {};
+
 class Sheep {
   constructor(
     public name: string,

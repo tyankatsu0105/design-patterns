@@ -1,3 +1,5 @@
+export {};
+
 const president = (() => {
   const presidentsPrivateInformation = "Super private";
 

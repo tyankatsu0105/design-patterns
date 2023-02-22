@@ -1,3 +1,5 @@
+export {};
+
 abstract class Position {
   public abstract askQuestions(): void;
 }

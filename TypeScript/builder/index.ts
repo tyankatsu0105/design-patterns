@@ -1,3 +1,5 @@
+export {};
+
 class Burger {
   constructor(
     public size: number,
