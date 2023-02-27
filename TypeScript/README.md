@@ -71,3 +71,10 @@ deno run TypeScript/simple-factory/index.ts
   - 実際のオブジェクトに対する操作が呼び出される前の前提条件のチェックなどの、特別な機能を提供することができる
 
 ## Behavioral Design Pattern
+
+オブジェクト間の責任の分担  
+"ある振る舞いをソフトウェアコンポーネントで実行するにはどうすればよいか？"に答える手助けをするもの  
+オブジェクト間の共通の通信パターンを特定し、それを実現する設計パターンのことである。そうすることで、この通信を行う際の柔軟性を高める
+
+- [chain of responsibility](./chain-of-responsibility/index.ts)
+  - aaa
