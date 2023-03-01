@@ -100,3 +100,5 @@ deno run TypeScript/simple-factory/index.ts
   - pubsub とも言う
   - あるオブジェクトが状態を変更するたびに、その依存するすべてのオブジェクトが通知される
   - オブジェクトがオブザーバーと呼ばれる依存者のリストを保持し、状態の変化を自動的に通知する
+- [visitor](./visitor/index.ts)
+  - aaaaaaaaaa
