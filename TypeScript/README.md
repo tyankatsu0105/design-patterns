@@ -9,6 +9,8 @@ deno run TypeScript/simple-factory/index.ts
 # 参照
 
 - https://github.com/sohamkamani/javascript-design-patterns-for-humans
+- https://github.com/torokmark/design_patterns_in_typescript
+- https://refactoring.guru/ja/design-patterns/typescript
 
 # Pattern type
 
