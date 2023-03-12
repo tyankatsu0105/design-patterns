@@ -1,9 +1,14 @@
+# GOF
+
+Gang Of Four によるデザインパターン  
+オブジェクト指向寄り
+
 # Setup
 
 Deno を利用する
 
 ```bash
-deno run TypeScript/simple-factory/index.ts
+deno run TypeScript/GOF/simple-factory/index.ts
 ```
 
 # 参照
