@@ -15,6 +15,7 @@ npx ts-node lens/index/ts
 - https://book.impress.co.jp/books/1115101137
   - https://github.com/luijar/functional-programming-js
 - https://github.com/ramda/ramda
+- https://kentutorialbook.github.io/30minLearningJavaScriptMonad/
 
 # 内容
 
@@ -303,8 +304,10 @@ class Wrapper<V> {
 fmap 関数のように、コンテナを返すのは、処理をつなげて連続処理を行えるようにするため  
 Array#filter や filter などのメソッドはまさにファンクター。Array を ファンクター とみなし、その要素を変換するために map メソッドを使用している。
 
-- 副作用が存在しない
-- 合成可能である
+- 構造を保ったまま、要素を 1:1 で転写（map）する
+  - 値を別の値に変換するために取り扱う口を設けている
+- 自分自身の型と同じを返す
+  - Array.map は Array オブジェクトを返す
 
 の 2 つがファンクターには必要  
 ファンクターは型変換を行うための一般的な手法
@@ -314,6 +317,17 @@ Array#filter や filter などのメソッドはまさにファンクター。Ar
 ファンクターと似ている
 処理を行う値についての知識を一切持たずに、連続したステップとして実行する計算を表現するために利用されるデザインパターン  
 合成を利用する場合に安全かつ副作用なしでデータフロー管理できる
+
+- map
+  - オブジェクト自身を返す
+- unit
+  - コンテナに入れる
+    - `value` => `[value]`
+- flat
+  - コンテナから剥がす
+    - `[[value]]` => `[value]`
+
+の 3 つの概念から構成される
 
 ## モナドチェーン
 
