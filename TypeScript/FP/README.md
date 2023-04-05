@@ -16,6 +16,8 @@ npx ts-node lens/index/ts
   - https://github.com/luijar/functional-programming-js
 - https://github.com/ramda/ramda
 - https://kentutorialbook.github.io/30minLearningJavaScriptMonad/
+- https://kentutorialbook.github.io/functionalprogramming2022/
+-
 
 # 内容
 

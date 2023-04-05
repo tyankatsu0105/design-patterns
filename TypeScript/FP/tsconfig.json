@@ -3,6 +3,7 @@
     "target": "ES2020",
     "allowJs": true,
     "module": "CommonJS",
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "useUnknownInCatchVariables": true
   }
 }
